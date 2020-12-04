@@ -11,6 +11,7 @@ export default class three{
       75, window.innerWidth / window.innerHeight, 1, 1000
     )
     this.camera.position.set(0, 0, 2)
+    
     this.renderer.setSize(canvas.clientHeight, canvas.clientWidth)
     canvas.appendChild(this.renderer.domElement)
 
